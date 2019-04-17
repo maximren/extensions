@@ -30,7 +30,8 @@ The default values are defined through [instance parameters][instance-params] wh
         "name": "Default color",
         "description": "Set which color is the default color",
         "type": "Enum",
-        "options": ["true", "false"],
+        "options": [true, false],
+        "default": false,
         "labels": { "empty": "Choose a color" },
         "required": true
       }
