@@ -25,11 +25,11 @@
       inputEl.addEventListener('input', keyboardInputHandler);
       window.addEventListener('onbeforeunload', unloadHandler);
 
-      var defaultColor = extension.parameters.instance.defaultColor;
-      document.querySelector('.default-value').appendChild(document.createTextNode(defaultColor))
+      var defaultBoolean = extension.parameters.instance.defaultBoolean;
+      document.querySelector('.default-value').appendChild(document.createTextNode(defaultBoolean))
 
       if (extension.entry.getSys().version == 1 && extension.field.getValue() === undefined) {
-        extension.field.setValue(defaultColor);
+        extension.field.setValue(defaultBoolean);
       }
 
       function valueChangeHandler(value) {
