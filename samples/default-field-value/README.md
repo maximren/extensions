@@ -20,7 +20,7 @@ The default values are defined through [instance parameters][instance-params] wh
 ```json
 {
   "id": "default-field-value",
-  "name": "LOL value for a field",
+  "name": "KEK value for a field",
   "srcdoc": "extension.html",
   "fieldTypes": ["Boolean"],
   "parameters": {
