@@ -12,7 +12,7 @@
         "type": "Enum",
         "options": [true, false],
         "labels": {"empty": "Choose boolean"},
-        "required": true
+        "required": false
       }
     ]
   }
