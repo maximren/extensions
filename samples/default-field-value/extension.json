@@ -1,6 +1,6 @@
 {
   "id": "Boolean setting",
-  "name": "Default value for a field",
+  "name": "Test value for a field",
   "srcdoc": "extension.html",
   "fieldTypes": ["Boolean"],
   "parameters": {
