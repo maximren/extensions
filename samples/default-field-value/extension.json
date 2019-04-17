@@ -1,17 +1,17 @@
 {
-  "id": "default-field-value",
+  "id": "Boolean setting",
   "name": "Default value for a field",
   "srcdoc": "extension.html",
-  "fieldTypes": ["Symbol"],
+  "fieldTypes": ["Boolean"],
   "parameters": {
     "instance": [
       {
-        "id": "defaultColor",
-        "name": "Default color",
-        "description": "Set which color is the default color",
+        "id": "defaultBoolean",
+        "name": "Boolean",
+        "description": "Set bla bla bla",
         "type": "Enum",
-        "options": [{"#0000FF": "blue"}, {"#FFFF00": "yellow"}, {"#FF0000": "red"}],
-        "labels": {"empty": "Choose a color"},
+        "options": [true, false],
+        "labels": {"empty": "Choose boolean"},
         "required": true
       }
     ]
