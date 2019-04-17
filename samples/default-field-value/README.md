@@ -20,18 +20,18 @@ The default values are defined through [instance parameters][instance-params] wh
 ```json
 {
   "id": "default-field-value",
-  "name": "Default value for a field",
+  "name": "LOL value for a field",
   "srcdoc": "extension.html",
   "fieldTypes": ["Symbol"],
   "parameters": {
     "instance": [
       {
-        "id": "defaultColor",
+        "id": "defaultColor1",
         "name": "Default color",
         "description": "Set which color is the default color",
         "type": "Enum",
-        "options": [{"#0000FF": "blue"}, {"#FFFF00": "yellow"}, {"#FF0000": "red"}],
-        "labels": {"empty": "Choose a color"},
+        "options": [{ "#0000FF": "blue" }, { "#FFFF00": "yellow" }, { "#FF0000": "red" }],
+        "labels": { "empty": "Choose a color" },
         "required": true
       }
     ]
@@ -51,10 +51,13 @@ Read more about configuration parameters in the [installation and instance param
 ## Usage
 
 To install the UI Extension:
+
 ```bash
 contentful extension create
 ```
+
 To update the UI Extension:
+
 ```bash
 contentful extension update --force
 ```
