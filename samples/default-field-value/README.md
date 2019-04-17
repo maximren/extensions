@@ -31,7 +31,6 @@ The default values are defined through [instance parameters][instance-params] wh
         "description": "Set which color is the default color",
         "type": "Boolean",
         "options": [true, false],
-        "default": "No",
         "labels": { "true": "Yes", "false": "No" },
         "required": true
       }
