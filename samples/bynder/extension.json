@@ -2,5 +2,5 @@
   "id": "bynder-browse-media",
   "name": "Bynder media browser",
   "src": "http://localhost:8000/extension.html",
-  "fieldTypes": ["Symbols"]
+  "fieldTypes": ["Boolean"]
 }
