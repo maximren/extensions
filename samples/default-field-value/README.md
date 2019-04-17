@@ -22,7 +22,7 @@ The default values are defined through [instance parameters][instance-params] wh
   "id": "default-field-value",
   "name": "LOL value for a field",
   "srcdoc": "extension.html",
-  "fieldTypes": ["Symbol"],
+  "fieldTypes": ["Boolean"],
   "parameters": {
     "instance": [
       {
