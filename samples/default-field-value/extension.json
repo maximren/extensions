@@ -12,6 +12,7 @@
         "type": "Boolean",
         "options": [true, false],
         "labels": {"true": "sí", "false": "no"},
+        "default": false,
         "required": true
       }
     ]

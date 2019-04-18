@@ -32,6 +32,7 @@ The default values are defined through [instance parameters][instance-params] wh
         "type": "Boolean",
         "options": [true, false],
         "labels": { "true": "sí", "false": "no" },
+        "default": false,
         "required": true
       }
     ]
