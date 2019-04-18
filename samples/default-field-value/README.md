@@ -29,9 +29,9 @@ The default values are defined through [instance parameters][instance-params] wh
         "id": "defaultKek",
         "name": "Default color",
         "description": "Set which color is the default color",
-        "type": "Enum",
+        "type": "Boolean",
         "options": [true, false],
-        "labels": { "true": "Yes", "false": "No" },
+        "labels": { "true": "sí", "false": "no" },
         "required": true
       }
     ]
