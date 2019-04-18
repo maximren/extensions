@@ -32,7 +32,6 @@ The default values are defined through [instance parameters][instance-params] wh
         "type": "Enum",
         "options": [true, false],
         "labels": { "empty": "Choose a color" },
-        "default": false,
         "required": true
       }
     ]

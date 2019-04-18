@@ -12,7 +12,6 @@
         "type": "Enum",
         "options": [true, false],
         "labels": {"empty": "Choose a color"},
-        "default": false,
         "required": true
       }
     ]
