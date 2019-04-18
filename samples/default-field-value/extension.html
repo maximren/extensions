@@ -40,11 +40,11 @@
 
       function keyboardInputHandler() {
         var value = inputEl.value;
-        if (typeof value !== 'string' || value === '') {
-          extension.field.removeValue();
-        } else {
-          extension.field.setValue(value);
-        }
+        return extension.field.setValue(false);
+        // if (typeof value !== 'string' || value === '') {
+        //   extension.field.removeValue();
+        // } else {
+        // }
       }
 
       function isInvalidColor(value) {
