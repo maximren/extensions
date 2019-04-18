@@ -1,0 +1,19 @@
+{
+  "id": "lul",
+  "name": "Lul",
+  "srcdoc": "extension.html",
+  "fieldTypes": ["Boolean"],
+  "parameters": {
+    "instance": [
+      {
+        "id": "defaultBoolean",
+        "name": "Default boolean",
+        "description": "Set which boolean is the default",
+        "type": "Enum",
+        "options": [true, false],
+        "labels": {"empty": "Choose a color"},
+        "required": true
+      }
+    ]
+  }
+}
