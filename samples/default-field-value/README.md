@@ -20,17 +20,17 @@ The default values are defined through [instance parameters][instance-params] wh
 ```json
 {
   "id": "default-field-value",
-  "name": "KEK value for a field",
+  "name": "Kek value for a field",
   "srcdoc": "extension.html",
   "fieldTypes": ["Boolean"],
   "parameters": {
     "instance": [
       {
         "id": "defaultKek",
-        "name": "Default color",
+        "name": "Default kek",
         "description": "Set which color is the default color",
         "type": "Enum",
-        "options": ["true", "false"],
+        "options": [true, false],
         "labels": { "empty": "Choose a color" },
         "default": false,
         "required": true
